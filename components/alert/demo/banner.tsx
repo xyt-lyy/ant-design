@@ -3,7 +3,7 @@ import { Alert } from 'antd';
 
 const App: React.FC = () => (
   <>
-    <Alert message="Warning text" banner />
+    <Alert message="请先移除部门内所有人员再进行删除部门操作" banner />
     <br />
     <Alert
       message="Very long warning text warning text text text text text text text"
